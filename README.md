@@ -1,4 +1,4 @@
-# Indonesian Regulation Dataset: Data Profiling and Cleaning
+# Indonesian Regulation Dataset: Data Profiling and Cleaning.
 
 ## Project Overview
 
