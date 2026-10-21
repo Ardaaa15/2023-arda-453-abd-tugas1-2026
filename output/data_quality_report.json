@@ -1,0 +1,34 @@
+{
+  "project": "ID_REG_KG_2511: Indonesian Legal Regulation Knowledge Graph",
+  "stage": "Milestone 2 - Data Cleaning Validation",
+  "dataset_source": "https://huggingface.co/datasets/Azzindani/ID_REG_KG_2511",
+  "local_cleaned_output_included_in_repository": false,
+  "cleaned_output_size_gib": 2.92,
+  "validation": {
+    "total_baris": 748558,
+    "global_id_unik": 748558,
+    "global_id_null": 0,
+    "global_id_berulang": 0,
+    "year_null": 567,
+    "year_status_null": 0,
+    "regulation_type_unknown_sisa": 0,
+    "enacting_body_unknown_sisa": 0,
+    "effective_date_unknown_sisa": 0,
+    "effective_date_null": 259467,
+    "effective_date_unknown_ditandai": 259467,
+    "enacting_body_encoding_flag": 61,
+    "tahun_2030_dipertahankan": 2,
+    "tahun_0000_ditandai": 567,
+    "tahun_masa_depan_ditandai": 2
+  },
+  "cleaning_notes": [
+    "Original source files remain separate and unchanged.",
+    "No rows were intentionally deleted.",
+    "Year 0000 was normalized to null and flagged.",
+    "Year 2030 was retained and flagged for review.",
+    "Unknown or missing effective dates were normalized to null and flagged.",
+    "Potential encoding issues were flagged without reconstructing text.",
+    "Text length of 32767 characters is a possible truncation indicator, not proof of truncation."
+  ],
+  "note": "This repository report summarizes the final validation output. The multi-gigabyte raw and cleaned Parquet files are not included."
+}

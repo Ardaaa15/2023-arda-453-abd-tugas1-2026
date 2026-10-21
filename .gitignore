@@ -1,0 +1,30 @@
+# Large raw and processed datasets
+*.parquet
+*.parquet.tmp
+*.tmp.parquet
+data/raw/
+data/processed/
+id_reg_kg_2511/
+id_reg_kg_2511_cleaned/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.temp
