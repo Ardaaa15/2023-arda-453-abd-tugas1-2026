@@ -7,7 +7,7 @@ This project documents two stages of a Big Data workflow using the
 **Milestone 1 (Data Profiling)** and **Milestone 2 (Data Cleaning)**.
 Exploratory Data Analysis (EDA) is outside the current scope.
 
-## Dataset Source and Attribution
+## Dataset Source and Attribution.
 
 -   **Dataset:** ID_REG_KG_2511: Indonesian Legal Regulation Knowledge
     Graph
@@ -173,3 +173,9 @@ repository by default.
 -   **Milestone 2 --- Data Cleaning:** transformations and final
     validation completed for the local cleaned dataset.
 -   **Milestone 3 --- EDA:** outside the current submission scope.
+
+
+## Submission Scope
+
+This submission covers Milestone 1 (Data Profiling) and Milestone 2 (Data Cleaning). Milestone 3 (Exploratory Data Analysis) is outside the current submission scope.
+
