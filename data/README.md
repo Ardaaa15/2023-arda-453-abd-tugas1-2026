@@ -53,7 +53,7 @@ The source files were kept separate from the cleaned output. Cleaning
 was applied to a derived copy, and no rows were intentionally deleted.
 
 The cleaned data includes normalized null values and audit flags for
-selected anomalies. Potential encoding issues were flagged rather than
+selected anomalies, Potential encoding issues were flagged rather than
 reconstructed. Texts of unusual length were retained because character
 count alone does not establish that a text is invalid.
 
